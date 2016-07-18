@@ -1,0 +1,21 @@
+{
+  "name": "mail-client",
+  "version": "0.0.1",
+  "description": "testing for mail funcs",
+  "main": "client.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "Cedric",
+  "license": "MIT",
+  "dependencies": {
+    "emailjs": "^1.0.5",
+    "emailjs-imap-client": "^2.0.2",
+    "emailjs-mime-parser": "^1.0.0",
+    "emailjs-smtp-client": "^1.0.0",
+    "mailparser": "^0.6.1",
+    "promise": "^7.1.1",
+    "prompt": "^1.0.0",
+    "underscore": "^1.8.3"
+  }
+}
